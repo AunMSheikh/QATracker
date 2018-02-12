@@ -11,6 +11,7 @@ import {
     Redirect
   } from 'react-router-dom'
 import LandingScreen from './LandingScreen';
+import {history} from '../Helpers'
 
 
 class LoginForm extends PureComponent {
@@ -31,7 +32,7 @@ class LoginForm extends PureComponent {
     render() {
         if(this.state.login) {
             return (
-                <Redirect  to={{pathname: '/LandingScreen'}} />
+               history.push(LandingScreen)
             )
         }
         return (
