@@ -1,0 +1,1 @@
+Follows Git Flow -- Create feature branch from development branch
