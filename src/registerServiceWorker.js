@@ -1,3 +1,4 @@
+/* eslint-disable */
 // In production, we register a service worker to serve assets from local cache.
  
  // This lets the app load faster on subsequent visits in production, and gives
@@ -40,8 +41,7 @@
          // service worker/PWA documentation.
          navigator.serviceWorker.ready.then(() => {
            console.log(
-             'This web app is being served cache-first by a service ' 
-               'worker. To learn more, visit https://goo.gl/SC7cgQ'
+             'This web app is being served cache-first by a service worker. To learn more, visit https://goo.gl/SC7cgQ'
            );
          });
        } else {
