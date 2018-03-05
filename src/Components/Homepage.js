@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Grid, Message } from 'semantic-ui-react';
-import '../Styles/Homepage.css';
+import '../Styles/HomePage.css';
 import '../Styles/Global.css';
 
 
-const Homepage = () => <div className={["ui container"]}>
+const HomePage = () => <div className={["ui container"]}>
         <Grid.Row>
             <Grid.Column>
                 <Message success className={['center-content', 'message-jumbotron']}>
@@ -20,4 +20,4 @@ const Homepage = () => <div className={["ui container"]}>
         </Grid.Row>
     </div>
 
-export default Homepage;
+export default HomePage;
