@@ -1,0 +1,50 @@
+.message-jumbotron {
+    height: 500px;
+    padding-top: 10% !important;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hook {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.button-pair {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.button-left-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.button-right-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.button-left {
+    width: 120px;
+    height: 50px;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+
+}
+
+.button-right {
+    width: 120px;
+    height: 50px;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+}
